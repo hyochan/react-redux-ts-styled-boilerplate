@@ -4,10 +4,11 @@ import { Redirect } from 'react-router-dom';
 import Button from '../shared/Button';
 
 import classNames from 'classnames/bind';
+import { getString } from '../../utils/Locale';
 const classes = require('./Intro.css');
 const cx = classNames.bind(classes);
 
-class Intro extends Component<any, any> {
+class Intro extends Component<{}, {}> {
   public render() {
     const containerClass = cx({
       container: true,
@@ -20,7 +21,7 @@ class Intro extends Component<any, any> {
             id='btn'
             onClick={() => this.onClick()}
             white={true}
-            txt='Button'
+            txt={getString('BUTTON')}
           />
         </div>
       </div>

@@ -7,7 +7,7 @@ class NotFound extends Component<any, any> {
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <Button
           onClick={() => this.props.history.goBack()}
-          btnTxt='back to tab page'
+          txt='back to tab page'
         />
       </div>
     );

@@ -15,14 +15,9 @@ describe('Intro page DOM rendering test', () => {
 });
 
 describe('Interaction', () => {
-  let count = 1;
-  const onClick = () => {
-    count++;
-  };
-
   let rendered;
   let instance;
-  const component = <Intro onClick={onClick}/>;
+  const component = <Intro/>;
 
   beforeAll(() => {
     rendered = renderer.create(component);
