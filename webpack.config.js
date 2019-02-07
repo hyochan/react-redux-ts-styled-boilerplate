@@ -82,20 +82,6 @@ module.exports = {
         exclude: [/node_modules/]
       },
       {
-        test: /\.css$/,
-        use: [ 
-          'style-loader',
-          { 
-            loader: 'css-loader',
-            options: { 
-              importLoaders: 1,
-              modules: true,
-              // you can remove the comment in above code if you wanna uglify css classnames to scope to specific component
-            }
-          },
-        ]
-      },
-      {
         test: /\.(png|jpg|gif)$/,
         use: [
           {
