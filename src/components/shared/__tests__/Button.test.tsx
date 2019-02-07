@@ -31,7 +31,7 @@ describe('Button Interaction', () => {
 
   it('Simulate onClick', () => {
     const button = instance.find(
-      (el: any) => el.type === 'div',
+      (el: any) => el.type === 'button',
     );
     button.props.onClick();
     expect(count).toBe(2);

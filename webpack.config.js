@@ -93,16 +93,6 @@ module.exports = {
               // you can remove the comment in above code if you wanna uglify css classnames to scope to specific component
             }
           },
-          { 
-            loader: 'postcss-loader', 
-            options: {
-              ident: 'postcss',
-              plugins: [
-                require('postcss-import')(),
-                require('postcss-cssnext')(),
-              ]
-            }
-          },
         ]
       },
       {

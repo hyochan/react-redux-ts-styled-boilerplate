@@ -1,6 +1,6 @@
 # React Typescript Starter
 > Specification
-* postcss
+* styled-component
 * typescript
 * react-router-dom v4
 * test jest with typescript
@@ -33,10 +33,13 @@ app/
 ├─ docs // explanation for dev stack we used. (Sorry for Korean)
 ├─ node_modules/
 ├─ src/
+│  └─ actions
 │  └─ apis
 │  └─ components
-│  └─ models
-│  └─ stores
+│     └─ navigation
+│     └─ screen
+│     └─ shared
+│  └─ reducers
 │  └─ utils
 │  └─ index.tsx
 │  └─ root.css // global variables for css used in compoenents
@@ -44,7 +47,6 @@ app/
 ├─ .gitignore
 ├─ .babelrc
 ├─ package.json
-├─ postcss.config.js
 ├─ README.md
 ├─ STRINGS.js
 ├─ tsconfig.json

@@ -1,20 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button shared component test component and snapshot matches 1`] = `
-<div
-  className="btn"
+<button
+  className="sc-bwzfXH idXafH"
   onClick={[Function]}
-  style={
-    Object {
-      "borderColor": "#fff",
-      "color": "#fff",
-    }
-  }
 >
   <span
-    className="txt"
+    className="sc-htpNat gUfFlb"
   >
     Button 2nd test
   </span>
-</div>
+</button>
 `;

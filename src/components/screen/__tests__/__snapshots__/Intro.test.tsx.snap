@@ -2,27 +2,21 @@
 
 exports[`Intro page DOM rendering test component and snapshot matches 1`] = `
 <div
-  className="container background"
+  className="sc-ifAKCX fgUhTV"
 >
   <div
-    className="box"
+    className="sc-EHOje iRMNKG"
   >
-    <div
-      className="btn"
+    <button
+      className="sc-bwzfXH idXafH"
       onClick={[Function]}
-      style={
-        Object {
-          "borderColor": "#fff",
-          "color": "#fff",
-        }
-      }
     >
       <span
-        className="txt"
+        className="sc-htpNat gUfFlb"
       >
         Button
       </span>
-    </div>
+    </button>
   </div>
 </div>
 `;
