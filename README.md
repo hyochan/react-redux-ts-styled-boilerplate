@@ -1,15 +1,16 @@
 # React Typescript Redux Styled-Component
-> Specification
+> Most supportive boilerplate `dooboolab's` using today.
+
+### Specification
 * styled-component
 * typescript
 * react-router-dom v4
 * test jest with typescript
 * localization
 * redux
-
 > More example will be found in `desktop` branch.
 
-# Gain points
+## Gain points
 ```
 1. Typescript support. No need to run tsc because webpack is doing it for you with ts-loader.
 2. Sample of react-router-dom v4.
@@ -17,13 +18,13 @@
 4. Learn how to localize your project.
 ```
 
-# INSTALL
+## INSTALL
 ```
 1. npm install
 2. npm start
 ```
 
-# Structures
+## Structures
 ```text
 app/
 ├─ assets
@@ -38,13 +39,15 @@ app/
 │     └─ navigation
 │     └─ screen
 │     └─ shared
+│     └─ ui
 │  └─ reducers
 │  └─ utils
 │  └─ index.tsx
 │  └─ root.css // global variables for css used in compoenents
 ├─ test/
 ├─ .gitignore
-├─ .babelrc
+├─ babel.config.js
+├─ jest.config.js
 ├─ package.json
 ├─ README.md
 ├─ STRINGS.js
