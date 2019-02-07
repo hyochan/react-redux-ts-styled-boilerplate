@@ -1,10 +1,9 @@
-# React Typescript Starter
+# React Typescript Redux Styled-Component
 > Specification
 * styled-component
 * typescript
 * react-router-dom v4
 * test jest with typescript
-* import css as module
 * localization
 * redux
 
