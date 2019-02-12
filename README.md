@@ -1,5 +1,5 @@
 # React Typescript Redux Styled-Component
-> Most supportive boilerplate `dooboolab's` using today.
+> Example of  `dooboolab's` frontend boilerplate with redux integration. We are not generating this in `dooboo-cli`.
 
 ### Specification
 * styled-component
