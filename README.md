@@ -43,7 +43,7 @@ app/
 │  └─ reducers
 │  └─ utils
 │  └─ index.tsx
-│  └─ root.css // global variables for css used in compoenents
+│  └─ root.css // global variables for css used in components
 ├─ test/
 ├─ .gitignore
 ├─ babel.config.js
